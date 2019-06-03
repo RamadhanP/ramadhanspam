@@ -1,0 +1,27 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# Coded by M.Fazriansyah R
+"""
+ngapai bosq? mau recode?
+tinggal pake aja susah amat sih?!
+"""
+from multiprocessing.pool import ThreadPool
+try:
+	import os, random
+	from time import sleep as turu
+	import subprocess as sp
+	import requests
+except ModuleNotFoundError:
+	print("\nSepertinya module requests BELUM Di Install")
+	print("$ pip install requests\n")
+	exit()
+
+try:
+	os.system('clear')
+	print("""\033[1;32m
+   _  _     \033[1;36mSPAM SMS (GRAB) UNLIMITED\033[1;32m
+ _| || |_   \033[1;31mAuthor : ramadhanspam\033[1;32m
+|_  ..  _|  \033[1;31mContact : https://t.me/kang_nuubi\033[1;32m
+|_      _|  \033[1;31mgithub : https://github.com/ramadhanaji\033[1;32m
+  |_||_| 
+""")
